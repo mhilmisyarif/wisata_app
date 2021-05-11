@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
 
-var informationTextStyle = TextStyle(fontFamily: 'Oxygen');
-
 class DetailScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    var informationTextStyle = TextStyle(fontFamily: 'Oxygen');
     return Scaffold(
       body: SafeArea(
         child: SingleChildScrollView(
